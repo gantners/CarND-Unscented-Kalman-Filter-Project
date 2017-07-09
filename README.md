@@ -1,3 +1,22 @@
+#Result
+
+###Best values have been achieved on dataset 1 using:
+
+Process noise standard deviation longitudinal acceleration in m/s^2
+ukf.std_a_ = 1.5;
+
+Process noise standard deviation yaw acceleration in rad/s^2
+ukf.std_yawdd_ = 0.5;
+
+These have been found by running a series of test runs with different parameter values.
+See [this](output/Series.xlsx) excel sheet for details.
+
+###Run dataset 1
+![Dataset1](output/best_values.PNG?raw=true "Dataset 1")
+
+###Run dataset 2
+![Dataset2](output/best_values_source2.PNG?raw=true "Dataset 2")
+
 # Unscented Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
